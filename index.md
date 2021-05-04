@@ -1,15 +1,12 @@
 ## Welcome to Alarm Clock Project
 
 ### รายละเอียดและคำอธิบาย
-  เป็นโครงงานที่ใช้ Microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Battery 9V , Buttons , Buzzer , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD
+  เป็นการทดลองทำนาฬิกาปลุก ซึ่งสามารถตั้งเวลาปัจจุบัน และเวลาปลุกได้ มีจอ LCD แสดงเวลาและ switch สำหรับตั้งเวลา  ทำงานโดยจะมีการตั้งเวลาปัจจุบันก่อน และตั้งเวลาปลุก เมื่อถึงเวลาจะมีเสียงเตือนดังขึ้น ใช้โปรแกรม Arduino ประโยชน์ไว้สำหรับการตั้งเวลาปลุก
+  Microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Battery 9V , Buttons , Buzzer , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD โดยใช้ Arduino เชื่อมกับ Battery ขนาด 9 โวลต์ ที่ช่อง Vn ในส่วนของ Power และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input เพื่อที่จะใช้ปุ่มในการตั้งค่าต่างๆ และมี Buzzer เพื่อเป็น Alarm กับ LCD เพื่อแสดงผล Output
 
-  ใช้ Arduino เชื่อมกับ Battery ขนาด 9 โวลต์ ที่ช่อง Vn ในส่วนของ Power และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input เพื่อที่จะใช้ปุ่มในการตั้งค่าต่างๆที่แสดงผลบน LCD
+### Source Code
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
+```javascript
 Source Code
 
 # Header 1
