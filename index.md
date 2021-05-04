@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to Alarm Clock Project
 
-You can use the [editor on GitHub](https://github.com/it63070160/Alarm-Clock/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# รายละเอียด
+เป็นโครงงานที่ใช้ microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Battery 9V , Buttons , Buzzer , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## คำอธิบาย
+ใช้ Arduino เชื่อมกับ Battery ขนาด 9 โวลต์ ที่ช่อง Vn ในส่วนของ Power และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input
 
 ### Markdown
 
