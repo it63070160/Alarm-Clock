@@ -1,17 +1,16 @@
 ## Welcome to Alarm Clock Project
 
-# รายละเอียด
-เป็นโครงงานที่ใช้ microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Battery 9V , Buttons , Buzzer , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD
+### รายละเอียดและคำอธิบาย
+  เป็นโครงงานที่ใช้ Microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Battery 9V , Buttons , Buzzer , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD
 
-## คำอธิบาย
-ใช้ Arduino เชื่อมกับ Battery ขนาด 9 โวลต์ ที่ช่อง Vn ในส่วนของ Power และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input
+  ใช้ Arduino เชื่อมกับ Battery ขนาด 9 โวลต์ ที่ช่อง Vn ในส่วนของ Power และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input เพื่อที่จะใช้ปุ่มในการตั้งค่าต่างๆที่แสดงผลบน LCD
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Source Code
 
 # Header 1
 ## Header 2
