@@ -12,6 +12,7 @@ const int btnChange = 12;
 const int btnOK = 13;
 const int btnMode = 11;
 const int buzzer = 7;
+const int pir = 10;
 
 int alarmHour = 12;
 int alarmMinutes = 0;
@@ -42,6 +43,7 @@ void setup()  {
   pinMode(btnOK, INPUT_PULLUP);
   pinMode(btnMode, INPUT_PULLUP);
   pinMode(buzzer, OUTPUT);
+  pinMode(pir, INPUT);
 
 
   lcd.init();         // initialize the LCD
@@ -105,13 +107,18 @@ void loop()  {
 }
 
 void alarm() {
-  clockDisplay();
-  lcd.noBacklight();
-  digitalWrite(buzzer, HIGH);
-  delay(300);
-  lcd.backlight();
-  digitalWrite(buzzer, LOW);
-  delay(200);
+  while(digitalRead(10)==LOW){
+    clockDisplay();
+    lcd.noBacklight();
+    digitalWrite(buzzer, HIGH);
+    delay(300);
+    lcd.backlight();
+    digitalWrite(buzzer, LOW);
+    delay(200);
+  }
+  while(digitalRead(10)==HIGH){
+    mode = 1
+  }
 }
 
 
