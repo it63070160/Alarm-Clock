@@ -13,3 +13,8 @@
   
   
   PDF file: https://drive.google.com/file/d/19ddcekm796ziFSbBtHax4NtthqqxLZtB/view?usp=sharing
+
+### ผู้จัดทำ
+  * นายพสุธา จันทรมณี 63070114
+  * นายพีรดนย์ พึ่งพงษ์ 63070124
+  * นายวีรวัต กมลเชษฐ์ 63070160
