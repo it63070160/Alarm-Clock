@@ -9,7 +9,7 @@
   https://youtu.be/lJRHrZiEIfg
 
 ## Poster
-  ![poster](/images/https://imgur.com/a/VWF3buI)
+  ![](alarm-clock.jpg)
   
   
   PDF file: https://drive.google.com/file/d/1sAqTqhhwhGG7nsZX0YKZuxDEhkay1RxL/view?usp=sharing
