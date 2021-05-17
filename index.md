@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Alarm Clock
+  ## บทคัดย่อ
+   เป็นการทดลองทำนาฬิกาปลุก ซึ่งสามารถตั้งเวลาปัจจุบัน และเวลาปลุกได้ มีจอ LCD แสดงเวลาและ switch สำหรับตั้งเวลา ทำงานโดยจะมีการตั้งเวลาปัจจุบันก่อน และตั้งเวลาปลุก เมื่อถึงเวลาจะมีเสียงเตือนดังขึ้นและเมื่อเซ็นเซอร์ตรวจจับได้ว่ามีอะไรผ่านก็จะทำการหยุดเสียงเตือนนั้น
+        
+  ## รายละเอียด
+   ใช้โปรแกรม Arduino ไว้สำหรับการตั้งเวลาปลุกด้วย Microcontroller ที่ทำงานด้วย Arduino เชื่อมกับ Buttons , Buzzer , PIR Sensor , DS3231 RTC และ LCD ที่มี Output เป็นการแสดงเวลาในจอ LCD โดยใช้ Arduino และต่อปุ่มต่างๆ รวมไปถึง DS3231 RTC ในช่อง SCL SDA เข้ากับ Analog Input เพื่อที่จะใช้ปุ่มในการตั้งค่าต่างๆ และมี Buzzer เพื่อเป็น Alarm กับ LCD เพื่อแสดงผล Output และ PIR Sensor เพื่อใช้ในการหยุด Alarm
 
-You can use the [editor on GitHub](https://github.com/it63070160/Alarm-Clock/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  ## Video
+  https://youtu.be/lJRHrZiEIfg
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Poster
+  ![](alarm-clock.jpg)
+  
+  
+  PDF file: https://drive.google.com/file/d/19ddcekm796ziFSbBtHax4NtthqqxLZtB/view?usp=sharing
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/it63070160/Alarm-Clock/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### ผู้จัดทำ
+  * นายพสุธา จันทรมณี 63070114
+  * นายพีรดนย์ พึ่งพงษ์ 63070124
+  * นายวีรวัต กมลเชษฐ์ 63070160
