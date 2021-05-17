@@ -9,6 +9,7 @@
   https://youtu.be/lJRHrZiEIfg
 
 ## Poster
+![Poster](https://imgur.com/a/VWF3buI.png)
   https://imgur.com/a/VWF3buI
   
   https://drive.google.com/file/d/1sAqTqhhwhGG7nsZX0YKZuxDEhkay1RxL/view?usp=sharing
