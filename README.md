@@ -11,4 +11,4 @@
 ## Poster
   ![poster](https://imgur.com/a/VWF3buI.jpg)
   
-  https://drive.google.com/file/d/1sAqTqhhwhGG7nsZX0YKZuxDEhkay1RxL/view?usp=sharing
+  PDF file: https://drive.google.com/file/d/1sAqTqhhwhGG7nsZX0YKZuxDEhkay1RxL/view?usp=sharing
