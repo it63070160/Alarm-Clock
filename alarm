@@ -107,7 +107,7 @@ void loop()  {
 }
 
 void alarm() {
-  while(digitalRead(10)==LOW){
+  while(digitalRead(pir)==LOW){
     clockDisplay();
     lcd.noBacklight();
     digitalWrite(buzzer, HIGH);
@@ -116,7 +116,7 @@ void alarm() {
     digitalWrite(buzzer, LOW);
     delay(200);
   }
-  while(digitalRead(10)==HIGH){
+  while(digitalRead(pir)==HIGH){
     mode = 1
   }
 }
